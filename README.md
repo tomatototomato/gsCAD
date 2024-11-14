@@ -15,7 +15,7 @@
 
 ## ③DEMO
 
-https://tomatototomato.github.io/LotApp/
+https://tomatototomato.github.io/gsCAD/
 
 ## ④ 作ったアプリケーション用の ID または Password がある場合
 
