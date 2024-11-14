@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gsCAD</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="header_title">
+            <h1>線図を描画(Local Storageを利用)</h1>
+        </div>
+    </header>
+    
+    <!-- main -->
+    <main>
+        <div class="main_view">
+            <div class="left_container">
+                <button id="erase_btn" style="width: 80%; height: 25px;">reset</button>
+                <h3>↑resetボタン↑</h3>
+                <h3>LocalStorageを初期化</h3>
+                <h3>【画面更新時、初期化必須】<br>※初期化しないと、直前に書いていた線図が描画されます。</h3>
+
+
+
+            </div>
+
+            <div class="center_container">
+
+                <canvas id="myCanvas" width="800px" height="500px"></canvas>
+                <h1>↑描画エリア↑</h1>
+                <br>
+                <h3>3回目の「クリック」で始点が設定、4回目の「クリック」で描画されます</h3>
+                <h3>以降は『ダブルクリック』で一筆書き形式で描画されていきます</h3>
+                <br>
+
+                <h3>※なお、最初の1~2回のクリックは反応しません(バグ除去できませんでした。。)</h3>
+
+
+            
+            </div>
+
+            <div class="right_container">
+                <button id="freedraw_btn" style="width: 80%; height: 25px;">Free Hand</button>
+                <h3>↑フリーハンド描画に切り替え↑</h3>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+    <script src="./js/jquery-2.1.3.min.js"></script>
+    <script src="./js/draw.js"></script>
+
+</body>
+</html>

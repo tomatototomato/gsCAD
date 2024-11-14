@@ -1,0 +1,81 @@
+body {
+    width: 99%;
+    background-color: #4f5a66;
+    color: whitesmoke;
+
+}
+
+header {
+    width: 100%;
+    background-color:slategray;
+    color: whitesmoke;
+
+    text-align: center;
+}
+
+/* main-view */
+.main_view {
+    display: flex;
+
+}
+
+/* left-container */
+.left_container {
+    width: 20%;
+    height: 100vh;
+
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+
+    background-color: rgb(163, 190, 214);
+
+}
+
+.left_container button {
+    margin-top: 5%;
+    margin-left: 10%;
+
+    
+}
+/* center-container -----------------*/
+.center_container {
+    width: 60%;
+    height: 100vh;
+
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+
+    background-color: #4f5a66;
+
+}
+
+/* canvas_view */
+#myCanvas {
+    background-color: #f0f8ff;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+/* right-container */
+.right_container {
+    width: 20%;
+    height: 100vh;
+
+    display: flex;
+    flex-flow: column;
+
+    background-color: rgb(163, 190, 214);
+
+}
+
+.right_container button {
+    margin-top: 5%;
+    margin-left: 10%;
+
+
+}
